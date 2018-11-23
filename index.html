@@ -72,7 +72,9 @@
 		<button onclick="execCommandWithArg('insertImage', prompt('Enter the image URL', ''));"><i class="fa fa-file-image-o"></i></button>
 		<button onclick="execCmd('selectAll');">Select All</button>
 	</div>
-	<iframe name="richTextField" style="width: 1000px; height: 500px;"></iframe>
+	<iframe name="richTextField" style="width: 1000px; height: 500px;" id="content"></iframe>
+	<button id="push" style="display: block;">Push</button>
+	<div id="block"></div>
 	<script type="cbf72c5c111ebfd37cd0a0c5-text/javascript">
 
 			var showingSourceCode = false;
@@ -113,6 +115,8 @@
 		</script>
 	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js"
 	 data-cf-nonce="cbf72c5c111ebfd37cd0a0c5-" defer=""></script>
+	 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	 <script src="custom.js"></script>
 </body>
 
 </html>
